@@ -1,8 +1,9 @@
 .typing {
-    font-weight: 200;
+    font-family: "Philosopher","serif";
+    font-weight: 300;
     text-align: center;
-    font-size: 3.5em; 
-    color: white;
+    font-size: 4.0rem; 
+    color: #4d4b4b;
     vertical-align: middle;
     /* margin: 0.4em 0; */
 }
@@ -11,6 +12,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 42em;
+    /* height: 42em; */
+}
 
+@media screen and (max-width: 767px) {
+    .typing {
+        font-weight: 300;
+        font-size: 2.0rem; 
+        color: #4d4b4b;
+        vertical-align: middle;
     }
+}
